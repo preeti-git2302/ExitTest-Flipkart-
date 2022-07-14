@@ -15,7 +15,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.ITestResult;
@@ -84,13 +83,8 @@ public class BaseTest {
 		else if(browser.equalsIgnoreCase("chrome"))
 		{
 		System.setProperty(prop.getProperty("ChromeProperty"), prop.getProperty("ChromePath"));
-		//driver = new ChromeDriver();
 	    ChromeOptions options = new ChromeOptions();
-	        
-	    //add the headless argument
 	    options.addArguments(prop.getProperty("headless"));
-	        
-	    //pass the options parameter in the Chrome driver declaration
 	    driver = new ChromeDriver(options);
 		}
 		else if(browser.equalsIgnoreCase("firefox"))
@@ -103,9 +97,9 @@ public class BaseTest {
 		else {
 			System.out.println("Invalid Browser");
 		}
-		//String number = prop.getProperty("wait");
-		//int num = Integer.parseInt(number);
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		String number = prop.getProperty("wait");
+		int num = Integer.parseInt(number);
+		driver.manage().timeouts().implicitlyWait(num, TimeUnit.SECONDS);
 		
 	}
 	

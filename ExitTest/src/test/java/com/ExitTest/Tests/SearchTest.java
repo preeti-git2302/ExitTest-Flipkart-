@@ -1,6 +1,6 @@
 package com.ExitTest.Tests;
 
-import java.util.concurrent.TimeUnit;
+
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -17,7 +17,7 @@ public class SearchTest extends BaseTest {
     public static String incorrectsearch = excel.getCellData(5,1);
     
 	
-	@Test (priority = 1)
+	@Test (priority = 1 , enabled = true)
 	public void search() {
 		closealter.navigateToPage();
 		SearchPage startsearch = new SearchPage(driver);
@@ -32,7 +32,7 @@ public class SearchTest extends BaseTest {
 		sa.assertAll();
 	}
 	
-	@Test (priority = 2)
+	@Test (priority = 2 , enabled = true)
 	public void invalidSearch() {
 		closealter.navigateToPage();
 		SearchPage startsearch = new SearchPage(driver);

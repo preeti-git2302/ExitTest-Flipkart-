@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ExitTest.utiles.Listeners"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ExitTest.Tests.AddToCartTest">
+      <class name="com.ExitTest.Tests.SearchTest">
         <methods>
-          <include name="addToCart"/>
           <include name="resultTest"/>
           <include name="openUrl"/>
           <include name="startTest"/>
           <include name="windowMaximize"/>
           <include name="endTest"/>
+          <include name="search"/>
           <include name="intializerDriver"/>
           <include name="setExtent"/>
           <include name="testclose"/>
           <include name="endReport"/>
         </methods>
-      </class> <!-- com.ExitTest.Tests.AddToCartTest -->
+      </class> <!-- com.ExitTest.Tests.SearchTest -->
       <class name="com.ExitTest.Tests.RemoveItemFromCartTest">
         <methods>
           <include name="resultTest"/>
           <include name="openUrl"/>
           <include name="startTest"/>
-          <include name="endTest"/>
           <include name="windowMaximize"/>
+          <include name="endTest"/>
           <include name="intializerDriver"/>
           <include name="setExtent"/>
           <include name="testclose"/>
@@ -32,48 +35,6 @@
           <include name="endReport"/>
         </methods>
       </class> <!-- com.ExitTest.Tests.RemoveItemFromCartTest -->
-      <class name="com.ExitTest.Tests.ElectronicsItemTest">
-        <methods>
-          <include name="resultTest"/>
-          <include name="openUrl"/>
-          <include name="startTest"/>
-          <include name="windowMaximize"/>
-          <include name="endTest"/>
-          <include name="intializerDriver"/>
-          <include name="setExtent"/>
-          <include name="testclose"/>
-          <include name="ElectronicsItem"/>
-          <include name="endReport"/>
-        </methods>
-      </class> <!-- com.ExitTest.Tests.ElectronicsItemTest -->
-      <class name="com.ExitTest.Tests.FlipKartFunctionButtonsTest">
-        <methods>
-          <include name="resultTest"/>
-          <include name="openUrl"/>
-          <include name="startTest"/>
-          <include name="ContactUs"/>
-          <include name="windowMaximize"/>
-          <include name="endTest"/>
-          <include name="intializerDriver"/>
-          <include name="setExtent"/>
-          <include name="testclose"/>
-          <include name="endReport"/>
-        </methods>
-      </class> <!-- com.ExitTest.Tests.FlipKartFunctionButtonsTest -->
-      <class name="com.ExitTest.Tests.BecomeASellerTest">
-        <methods>
-          <include name="resultTest"/>
-          <include name="openUrl"/>
-          <include name="startTest"/>
-          <include name="BecomeASeller"/>
-          <include name="windowMaximize"/>
-          <include name="endTest"/>
-          <include name="intializerDriver"/>
-          <include name="setExtent"/>
-          <include name="testclose"/>
-          <include name="endReport"/>
-        </methods>
-      </class> <!-- com.ExitTest.Tests.BecomeASellerTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

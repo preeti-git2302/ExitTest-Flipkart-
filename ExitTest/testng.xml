@@ -17,4 +17,7 @@
       <class name="com.ExitTest.Tests.BecomeASellerTest"/>
     </classes>
   </test> <!-- Test -->
+<listeners>
+    <listener class-name="com.ExitTest.utiles.Listeners"/>
+</listeners>
 </suite> <!-- Suite -->

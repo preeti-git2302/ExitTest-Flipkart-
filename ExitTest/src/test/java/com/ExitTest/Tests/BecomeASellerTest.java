@@ -9,7 +9,7 @@ import com.ExitTest.ReuseableMethod.ReuseableMethod;
 
 public class BecomeASellerTest extends BaseTest {
 	
-	@Test 
+	@Test (enabled = true)
 	public void BecomeASeller() {
 		ReuseableMethod closealter = new ReuseableMethod();
 		closealter.navigateToPage();

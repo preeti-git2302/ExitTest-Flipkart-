@@ -8,7 +8,7 @@ import com.ExitTest.Pages.RemoveItemFromCartPage;
 
 public class RemoveItemFromCartTest extends BaseTest{
 	
-	@Test (priority = 1)
+	@Test (priority = 1 , enabled = true)
 	public void RemoveToCart() {
 	LoginTest login = new LoginTest();
 	login.validLogin();
@@ -24,7 +24,7 @@ public class RemoveItemFromCartTest extends BaseTest{
 	
 	}
 	
-	@Test (priority = 2)
+	@Test (priority = 2 , enabled = true)
 	public void ItemNotExist() {
 		LoginTest login = new LoginTest();
 		login.validLogin();

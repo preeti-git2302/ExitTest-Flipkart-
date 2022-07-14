@@ -10,15 +10,15 @@ import com.ExitTest.Pages.LoginPage;
 public class LoginTest extends BaseTest {
 	
 	static Excel excel=new Excel();
-    public static String email = excel.getCellData(0,1).toString();
-    public static String password = excel.getCellData(1,1);
-    public static String email1 = excel.getCellData(2,1);
-    public static String password1 = excel.getCellData(3,1);
+    public static String email = excel.getCellData(1,3);
+    public static String password = excel.getCellData(1,5);
+    public static String email1 = excel.getCellData(2,3);
+    public static String password1 = excel.getCellData(3,3);
     
-	@Test (priority = 1)
+	@Test (priority = 1 , enabled = true)
 	public void validLogin() {
 		LoginPage login = new LoginPage(driver);
-		login.enterEmail("7061318654");
+		login.enterEmail(email);
 		login.enterPassword(password);
 		login.clickLogin();
 		logger.info("User Is Successfully Logged in");
@@ -28,7 +28,7 @@ public class LoginTest extends BaseTest {
 		sa.assertAll();
 	}
 	
-	@Test (priority = 2)
+	@Test (priority = 2 , enabled = true)
 	public void invalidEmail() {
 		LoginPage login = new LoginPage(driver);
 		login.enterEmail(email1);
@@ -42,7 +42,7 @@ public class LoginTest extends BaseTest {
 		sa.assertAll();
 	}
 	
-	@Test (priority = 3)
+	@Test (priority = 3 , enabled = true)
 	public void invalidPassword() {
 		LoginPage login = new LoginPage(driver);
 		login.enterEmail(email);
@@ -55,7 +55,7 @@ public class LoginTest extends BaseTest {
 		sa.assertAll();
 	}
 	
-	@Test (priority = 4)
+	@Test (priority = 4 , enabled = true)
 	public void blankEmail() {
 		LoginPage login = new LoginPage(driver);
 		login.enterEmail("");
@@ -68,7 +68,7 @@ public class LoginTest extends BaseTest {
 		sa.assertAll();
 	}
 	
-	@Test (priority = 5)
+	@Test (priority = 5 , enabled = true)
 	public void blankPassword() {
 		LoginPage login = new LoginPage(driver);
 		login.enterEmail(email);

@@ -9,7 +9,7 @@ import com.ExitTest.ReuseableMethod.ReuseableMethod;
 
 public class TopOffersTest extends BaseTest {
 
-	@Test 
+	@Test (enabled = true) 
 	public void TopOffers() {
 		ReuseableMethod closealter = new ReuseableMethod();
 		closealter.navigateToPage();

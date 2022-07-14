@@ -8,17 +8,6 @@ mvn clean test
 #### TestNG files description
 * testng.xml: define the tests related to different pages across the site
 
-
-## Jenkins ( Run with jenkins )  
-1. Install Jenkins.war
-2. open cmd with jenkins path and write :
-		java -jre jenkins.war
-		
-## Screenshots 
-![Jenkins Setup](./photo/Screenshot3.png)
-![Jenkins Setup](./photo/Screenshot1.png)
-![Jenkins Setup](./photo/Screenshot2.png)
-
 #### Packages description
 * com.ExitTest.Pages- Defining all the pages with find Elements.
 * com.ExitTest.utiles- Defining all the utilities needed for the tests.
@@ -87,6 +76,8 @@ mvn clean test
 
 * **ScreenShot.java** : defines functions to take screenshots.
 
+* **Listeners.java** : defines the code for enables and disables of test scripts
+
 * **config.properties** : placed under Resources folder. By changing the value of "chooseDriver" and "mode" you can run the project on different browsers:
 
 ** For firefox with headless mode** : chooseDriver= "FireFoxDriver"  and headless="headless"
@@ -100,7 +91,7 @@ mvn clean test
 
 * **ExcelFile** *
 
-* Contains the Data
+* Contains the Data and by marking yes or no in front of test script to run accordingly.
 
 #### Reports 
 
@@ -128,6 +119,6 @@ mvn clean test
 -	Assertions should be used properly throughout the suite. - **done**
 -	Put proper assertions and error screenshot in the extent report. - **done**
 -	Create a ReadMe document which has the steps to install and run the code. - **done**
--	Integrate your test suite with Jenkins and GitHub for CI/CD part. - **done**
+-	Integrate your test suite with GitHub for CI/CD part. - **done**
 -	Test Suite should be executable from command line using maven. - **done**
 -	Use Logger to implement logging in your test cases. - **done**

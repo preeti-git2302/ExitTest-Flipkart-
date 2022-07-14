@@ -1,17 +1,14 @@
 package com.ExitTest.Tests;
 
-import java.util.concurrent.TimeUnit;
-
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.ExitTest.BaseClass.BaseTest;
 import com.ExitTest.Pages.FlipKartFunctionButtonsPage;
-import com.ExitTest.ReuseableMethod.ReuseableMethod;
 
 public class FlipKartFunctionButtonsTest extends BaseTest {
 	
-	@Test (priority = 1)
+	@Test (priority = 1 , enabled = true)
 	public void AboutUs() throws InterruptedException {
 		LoginTest login = new LoginTest();
 		login.validLogin();
@@ -24,7 +21,7 @@ public class FlipKartFunctionButtonsTest extends BaseTest {
 		sa.assertAll();
 	}
 	
-	@Test (priority = 2)
+	@Test (priority = 2 , enabled = true)
 	public void ContactUs() throws InterruptedException {
 		LoginTest login = new LoginTest();
 		login.validLogin();
@@ -38,7 +35,7 @@ public class FlipKartFunctionButtonsTest extends BaseTest {
 		
 	}
 	
-	@Test (priority = 3)
+	@Test (priority = 3 , enabled = true)
 	public void CancellationAndRefund() throws InterruptedException {
 		LoginTest login = new LoginTest();
 		login.validLogin();
@@ -52,7 +49,7 @@ public class FlipKartFunctionButtonsTest extends BaseTest {
 		sa.assertAll();
 	}
 	
-	@Test (priority = 4)
+	@Test (priority = 4 , enabled = true)
 	public void SocialMedia() throws InterruptedException {
 		LoginTest login = new LoginTest();
 		login.validLogin();
@@ -66,7 +63,7 @@ public class FlipKartFunctionButtonsTest extends BaseTest {
 		
 	}
 	
-	@Test (priority = 5)
+	@Test (priority = 5 , enabled = true)
 	public void policy() throws InterruptedException {
 		LoginTest login = new LoginTest();
 		login.validLogin();

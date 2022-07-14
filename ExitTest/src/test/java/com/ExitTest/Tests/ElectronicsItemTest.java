@@ -9,7 +9,7 @@ import com.ExitTest.ReuseableMethod.ReuseableMethod;
 
 public class ElectronicsItemTest extends BaseTest {
 	
-	@Test 
+	@Test (enabled = true)
 	public void ElectronicsItem() {
 		ReuseableMethod closealter = new ReuseableMethod();
 		closealter.navigateToPage();

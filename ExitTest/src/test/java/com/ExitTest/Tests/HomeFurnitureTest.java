@@ -1,6 +1,5 @@
 package com.ExitTest.Tests;
 
-import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -12,7 +11,7 @@ import com.ExitTest.ReuseableMethod.ReuseableMethod;
 public class HomeFurnitureTest extends BaseTest {
 	
 
-	@Test 
+	@Test (enabled = true)
 	public void HomeFurniture() {
 		ReuseableMethod closealter = new ReuseableMethod();
 		closealter.navigateToPage();

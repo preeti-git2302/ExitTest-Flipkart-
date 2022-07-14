@@ -9,7 +9,7 @@ import com.ExitTest.ReuseableMethod.ReuseableMethod;
 
 public class ApplyFilterTest extends BaseTest {
 
-	@Test  
+	@Test  (enabled = true)
 	public void ApplyFilter() {
 		ReuseableMethod closealter = new ReuseableMethod();
 		closealter.navigateToPage();

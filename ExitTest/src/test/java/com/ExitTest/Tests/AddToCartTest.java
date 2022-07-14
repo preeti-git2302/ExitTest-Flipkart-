@@ -1,7 +1,5 @@
 package com.ExitTest.Tests;
 
-import java.util.Set;
-
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -12,7 +10,7 @@ import com.ExitTest.ReuseableMethod.ReuseableMethod;
 
 public class AddToCartTest extends BaseTest {
 	ReuseableMethod nextWindow = new ReuseableMethod();
-	@Test 
+	@Test (enabled = true)
 	public void addToCart() throws InterruptedException {
 		LoginTest login = new LoginTest();
 		login.validLogin();
