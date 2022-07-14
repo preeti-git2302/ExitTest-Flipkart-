@@ -16,7 +16,6 @@ public class ScreenShot {
 		File srcfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(srcfile, new File(imagepath));
 		
-		
 		return imagepath;
 		
 	}

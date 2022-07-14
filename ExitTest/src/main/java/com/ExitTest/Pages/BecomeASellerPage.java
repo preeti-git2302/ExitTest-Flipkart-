@@ -1,5 +1,6 @@
 package com.ExitTest.Pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,23 +32,28 @@ public class BecomeASellerPage {
 	
 
 	public void clickOnBecomeASeller() {
-		BecomeASeller.click();
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click()", BecomeASeller);
 	}
 
 	public void clickOnHowToRegister() {
-		HowToRegister.click();
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click()", HowToRegister);
 	}
 
 	public void clickOnKnowMore() {
-		KnowMore.click();
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click()", KnowMore);
 	}
 
 	public void clickOnResources() {
-		Resources.click();
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click()", Resources);
 	}
 
 	public void clickOnSuccessStories() {
-		 SuccessStories.click();
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click()", SuccessStories);
 	}
 
 }

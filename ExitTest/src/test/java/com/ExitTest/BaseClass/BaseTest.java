@@ -79,9 +79,6 @@ public class BaseTest {
 		if(browser.equalsIgnoreCase("edge"))
 		{
 		System.setProperty(prop.getProperty("EdgeProperty"), prop.getProperty("EdgePath"));
-//		EdgeOptions edgeOptions =new EdgeOptions();
-//		edgeOptions.addArguments("headless");
-//		driver = new EdgeDriver(edgeOptions);
 		driver = new EdgeDriver();
 		}
 		else if(browser.equalsIgnoreCase("chrome"))

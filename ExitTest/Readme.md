@@ -1,11 +1,11 @@
-# Flipkart Website Automation Suite Information:
-##### To run the Flipkart Automation Suite from command line in the project folder
+# FlipKart WebSite Automation Suite Information:
+##### To run the FlipKart Automation Suite from command line in the project folder
 mvn clean test
 
 ## GitHub Repository link 
 *  https://github.com/preeti-git2302/ExitTest-Flipkart-.git
 
-#### Testng files description
+#### TestNG files description
 * testng.xml: define the tests related to different pages across the site
 
 
@@ -23,76 +23,96 @@ mvn clean test
 * com.ExitTest.Pages- Defining all the pages with find Elements.
 * com.ExitTest.utiles- Defining all the utilities needed for the tests.
 * com.ExitTest.BaseClass- Defining all the base methods.
-* com.ExitTest.Excel- Defining 
+* com.ExitTest.Excel- Defining Excel Code.
+* com.ExitTest.ReuseableMethod- Defining the common methods.
 * com.ExitTest.Tests- Defining all the tests scripts and assertions.
 
 #### Tests.java files description
-**Base_Test** : The main class which defines-
+
+**BaseTest** : The main class which defines-
 * @BeforeMethod- to open the browser, to open url and get the name of the test
 * @AfterMethd- to attach screenshot and to quit the browser
 * @BeforeSuite- to set Extent
 * @AfterSuite- to end the report
 
-**Home_Test** : check functions on the homepage of Flipkart. Includes tests:
-* check Flipkart Logo. 
-* check ship button.
-* check cross Button to close the login dialogue box. 
-* check Seach Button.
-* check the sorting by popularity.
-* check Wholesale button.
-* check Paymenttton. 
-* check sellerRegistration Button.
-* check cart button present on Home page.
+**ReuseableMethods** : it contains method use mutiples time in this project it includes:
+* Method for SwitchWindow.
+* Method to navigate to main page.
+* Method To scroll down.
 
-**Account_Test** : check functions on the account section of Flipkart. 
-Includes tests:
-* check wishlist in my profile option.
-* check Mychats in my profile option.
-* click on mobile button.
-* check supercoinZone page by clicking supercoin button 
-* click on grocery button available after login on HomeScreen* click on mobile button  
+**AddToCartTest** : Check AddToCart Functionality of FlipKart 
 
-**Login_test** : Check login functionality by  entering mobilenumber and password and clicking login button present on dialogue box . 
-Includes tests:
-* check login with valid login credentials.
-* check login with Invalid login credentials.
-* check otp button
-* check logout button
+**ApplyFilterTest** : Check Filter Function Of FilpKart By Applying Various Filter. 
 
-**MoreOptions_test** : checks the fuctionalities in more option present in home page .
-Includes tests:
-* check Notification button by clicking and redirect to notificationpreference page
-* check customerService button by clicking and redirect to customerservice page.
+**BeautyandToysTest** : Check Beauty and Toys option and search for soft toys.
 
-**Flight_test** : check the flight button and the serch button in flight page.
+**BecomeAseller** : Checks the Functionality of Become A seller in FilpKart.
+
+**ElectronicsItemTest** : Check the Function of Electronic items.
+
+**FlipKartFunctionButtonsTest** : Check the Functions Of FilpKart Buttons includes:
+* check About Us Button. 
+* check Contact Us Option. 
+* check Cancellation And Refund option. 
+* check Social media Twitter page.
+* check Policy of FlipKart
+
+
+**HomeFurnitureTest** : Check the Option Of Home Furniture.
+
+**LoginTest** : Check the Login Functionality of FilpKart it Includes:
+* check login with valid login credentials. 
+* check login with Invalid Email. 
+* check login with Invalid Password. 
+* check login with Blank Email.
+* check login with Blank Password.
+
+**RemoveItemFromCartTest** : Check the Functionality to remove items from cart it includes:
+* check for item not exist in cart.
+
+**searchTest** : Check the Function of search it includes:
+* check for valid search 
+* check for invalid search
+
+**TopOffersTest** : Check the Top Offers Option.
+
 #### Drivers Folder description:
 
-* chromedriver.exe : drivers for chrome
+* chromedriver.exe : drivers for Chrome
 * geckodriver.exe : drivers for firefox
 * msedgedriver.exe: drivers for microsoft edge
 
 
 #### Other files description
-* **Screenshots.java** : defines functions to take screenshots
-* **confi.properties** : placed under "./Resources/config.properties". By changing the value of "chooseDriver" and "mode" you can run the project on different browsers:
 
-** For firefox without headless mode** : chooseDriver= "FireFoxDriver"  and mode="normal"
+* **ScreenShot.java** : defines functions to take screenshots.
 
-**For chrome in headless mode** : chooseDriver= "ChromeDriver"  and mode="Headless"
+* **config.properties** : placed under Resources folder. By changing the value of "chooseDriver" and "mode" you can run the project on different browsers:
 
-** For chrome without headless mode** : chooseDriver= "ChromeDriver"  and mode="normal"
+** For firefox with headless mode** : chooseDriver= "FireFoxDriver"  and headless="headless"
+
+**For chrome in headless mode** : chooseDriver= "ChromeDriver"  and headless=" Headless"
+
+** For chrome without headless mode** : chooseDriver= "ChromeDriver"  and headless="non - headlesss"
 
 ** For Microsoft Edge without headless mode** : chooseDriver="MicrosoftEdge" and there is no option for headless mode
 
 
-* **ExcelFile
+* **ExcelFile** *
+
+* Contains the Data
 
 #### Reports 
+
 * Extent report gets generated after the run under ./Reports/ExtentReports.html.
-* TestNG report as "emailable-report.html" gets generated under /test-output.
 
 #### FailedScreenshots
-* Failed Screenshots gets placed under /FailedScreenshots
+
+* Failed Screenshots gets placed under FailedScreenshots
+
+#### Logs
+
+* Contains the logger implementations.
  
  
 ## Implemented features

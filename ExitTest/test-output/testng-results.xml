@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="20" total="41" passed="16" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-14T19:10:16 IST" name="Suite" finished-at="2022-07-14T19:10:35 IST" duration-ms="19231">
+  <suite started-at="2022-07-14T20:47:39 IST" name="Suite" finished-at="2022-07-14T20:53:57 IST" duration-ms="377413">
     <groups>
     </groups>
-    <test started-at="2022-07-14T19:10:16 IST" name="Test" finished-at="2022-07-14T19:10:35 IST" duration-ms="19231">
-      <class name="com.ExitTest.Tests.ViewWishListTest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4]" started-at="2022-07-14T19:10:16 IST" name="setExtent" finished-at="2022-07-14T19:10:16 IST" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4]" started-at="2022-07-14T19:10:16 IST" name="intializerDriver" finished-at="2022-07-14T19:10:17 IST" duration-ms="1467" status="PASS">
+    <test started-at="2022-07-14T20:47:39 IST" name="Test" finished-at="2022-07-14T20:53:57 IST" duration-ms="377413">
+      <class name="com.ExitTest.Tests.SearchTest">
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:07 IST" name="intializerDriver" finished-at="2022-07-14T20:53:08 IST" duration-ms="996" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,46 +18,152 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializerDriver -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4]" started-at="2022-07-14T19:10:17 IST" name="openUrl" finished-at="2022-07-14T19:10:26 IST" duration-ms="8637" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:08 IST" name="openUrl" finished-at="2022-07-14T20:53:11 IST" duration-ms="3580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4]" started-at="2022-07-14T19:10:26 IST" name="startTest" finished-at="2022-07-14T19:10:26 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:11 IST" name="windowMaximize" finished-at="2022-07-14T20:53:11 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:11 IST" name="startTest" finished-at="2022-07-14T20:53:11 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ExitTest.Tests.ViewWishListTest.EditAccount() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.ExitTest.Tests.SearchTest.search()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4]" started-at="2022-07-14T19:10:26 IST" name="windowMaximize" finished-at="2022-07-14T19:10:26 IST" duration-ms="147" status="PASS">
+        <test-method signature="search()[pri:1, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:11 IST" name="search" finished-at="2022-07-14T20:53:14 IST" duration-ms="2980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:14 IST" name="testclose" finished-at="2022-07-14T20:53:14 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:14 IST" name="endTest" finished-at="2022-07-14T20:53:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:14 IST" name="resultTest" finished-at="2022-07-14T20:53:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=SearchTest.search()[pri:1, instance:com.ExitTest.Tests.SearchTest@695a69a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:14 IST" name="intializerDriver" finished-at="2022-07-14T20:53:15 IST" duration-ms="1009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:15 IST" name="openUrl" finished-at="2022-07-14T20:53:22 IST" duration-ms="6124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:22 IST" name="startTest" finished-at="2022-07-14T20:53:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.SearchTest.invalidSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:22 IST" name="windowMaximize" finished-at="2022-07-14T20:53:22 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowMaximize -->
-        <test-method signature="EditAccount()[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4]" started-at="2022-07-14T19:10:26 IST" name="EditAccount" finished-at="2022-07-14T19:10:30 IST" duration-ms="4050" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method signature="invalidSearch()[pri:2, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:22 IST" name="invalidSearch" finished-at="2022-07-14T20:53:23 IST" duration-ms="1536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSearch -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:23 IST" name="endTest" finished-at="2022-07-14T20:53:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:23 IST" name="resultTest" finished-at="2022-07-14T20:53:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidSearch status=SUCCESS method=SearchTest.invalidSearch()[pri:2, instance:com.ExitTest.Tests.SearchTest@695a69a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.SearchTest@695a69a1]" started-at="2022-07-14T20:53:23 IST" name="testclose" finished-at="2022-07-14T20:53:23 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.ExitTest.Tests.SearchTest -->
+      <class name="com.ExitTest.Tests.ElectronicsItemTest">
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.ElectronicsItemTest@72805168]" started-at="2022-07-14T20:51:57 IST" name="intializerDriver" finished-at="2022-07-14T20:51:58 IST" duration-ms="1022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.ElectronicsItemTest@72805168]" started-at="2022-07-14T20:51:58 IST" name="openUrl" finished-at="2022-07-14T20:52:18 IST" duration-ms="20005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.ElectronicsItemTest@72805168]" started-at="2022-07-14T20:52:18 IST" name="startTest" finished-at="2022-07-14T20:52:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.ElectronicsItemTest.ElectronicsItem()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.ElectronicsItemTest@72805168]" started-at="2022-07-14T20:52:18 IST" name="windowMaximize" finished-at="2022-07-14T20:52:18 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="ElectronicsItem()[pri:0, instance:com.ExitTest.Tests.ElectronicsItemTest@72805168]" started-at="2022-07-14T20:52:18 IST" name="ElectronicsItem" finished-at="2022-07-14T20:52:36 IST" duration-ms="18107" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+              <![CDATA[element not interactable
+  (Session info: headless chrome=103.0.5060.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'IN-3LSM2J3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PREETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a67a7185277aca8f18ca8fde4369260a]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PREETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a745fb858fdba35f0cd8ce1929eee866]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: headless chrome=103.0.5060.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'IN-3LSM2J3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PREETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a67a7185277aca8f18ca8fde4369260a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PREETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a745fb858fdba35f0cd8ce1929eee866
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -72,11 +174,15 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-at com.ExitTest.Pages.ViewWishListPage.clickOnOptions(ViewWishListPage.java:51)
-at com.ExitTest.Tests.ViewWishListTest.EditAccount(ViewWishListTest.java:17)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy31.click(Unknown Source)
+at com.ExitTest.Pages.ElectronicsItemPage.clickOnApple(ElectronicsItemPage.java:46)
+at com.ExitTest.Tests.ElectronicsItemTest.ElectronicsItem(ElectronicsItemTest.java:19)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,34 +213,1273 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EditAccount -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4]" started-at="2022-07-14T19:10:30 IST" name="endTest" finished-at="2022-07-14T19:10:30 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- ElectronicsItem -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.ElectronicsItemTest@72805168]" started-at="2022-07-14T20:52:36 IST" name="endTest" finished-at="2022-07-14T20:52:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4]" started-at="2022-07-14T19:10:30 IST" name="resultTest" finished-at="2022-07-14T19:10:31 IST" duration-ms="702" status="PASS">
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.ElectronicsItemTest@72805168]" started-at="2022-07-14T20:52:36 IST" name="resultTest" finished-at="2022-07-14T20:52:36 IST" duration-ms="97" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=EditAccount status=FAILURE method=ViewWishListTest.EditAccount()[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4] output={null}]]]>
+                <![CDATA[[TestResult name=ElectronicsItem status=FAILURE method=ElectronicsItemTest.ElectronicsItem()[pri:0, instance:com.ExitTest.Tests.ElectronicsItemTest@72805168] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultTest -->
-        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4]" started-at="2022-07-14T19:10:31 IST" name="testclose" finished-at="2022-07-14T19:10:35 IST" duration-ms="4187" status="PASS">
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.ElectronicsItemTest@72805168]" started-at="2022-07-14T20:52:36 IST" name="testclose" finished-at="2022-07-14T20:52:36 IST" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testclose -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.ExitTest.Tests.ViewWishListTest@1dd0e7c4]" started-at="2022-07-14T19:10:35 IST" name="endReport" finished-at="2022-07-14T19:10:35 IST" duration-ms="176" status="PASS">
+      </class> <!-- com.ExitTest.Tests.ElectronicsItemTest -->
+      <class name="com.ExitTest.Tests.RemoveItemFromCartTest">
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:48:37 IST" name="intializerDriver" finished-at="2022-07-14T20:48:38 IST" duration-ms="1117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:48:38 IST" name="openUrl" finished-at="2022-07-14T20:48:44 IST" duration-ms="5195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:48:44 IST" name="startTest" finished-at="2022-07-14T20:48:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.RemoveItemFromCartTest.RemoveToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:48:44 IST" name="windowMaximize" finished-at="2022-07-14T20:48:44 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="RemoveToCart()[pri:1, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:48:44 IST" name="RemoveToCart" finished-at="2022-07-14T20:48:48 IST" duration-ms="4584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveToCart -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:48:48 IST" name="endTest" finished-at="2022-07-14T20:48:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:48:48 IST" name="resultTest" finished-at="2022-07-14T20:48:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RemoveToCart status=SUCCESS method=RemoveItemFromCartTest.RemoveToCart()[pri:1, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:48:48 IST" name="testclose" finished-at="2022-07-14T20:48:48 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:48:48 IST" name="intializerDriver" finished-at="2022-07-14T20:48:50 IST" duration-ms="1050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:48:50 IST" name="openUrl" finished-at="2022-07-14T20:49:00 IST" duration-ms="10205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:49:00 IST" name="windowMaximize" finished-at="2022-07-14T20:49:00 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:49:00 IST" name="startTest" finished-at="2022-07-14T20:49:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.RemoveItemFromCartTest.ItemNotExist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ItemNotExist()[pri:2, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:49:00 IST" name="ItemNotExist" finished-at="2022-07-14T20:49:15 IST" duration-ms="15349" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[2]/div/div/div[1]/div[1]/div[6]/div/div[2]/div[2]/div[2]"}
+  (Session info: headless chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-3LSM2J3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PREETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48cec3d0d4beb440dbac28d9ab521c0f
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div[2]/div/div/div[1]/div[1]/div[6]/div/div[2]/div[2]/div[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[2]/div/div/div[1]/div[1]/div[6]/div/div[2]/div[2]/div[2]"}
+  (Session info: headless chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-3LSM2J3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PREETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48cec3d0d4beb440dbac28d9ab521c0f
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div[2]/div/div/div[1]/div[1]/div[6]/div/div[2]/div[2]/div[2]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy31.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+at com.ExitTest.Pages.RemoveItemFromCartPage.clickOnRemoveOption(RemoveItemFromCartPage.java:47)
+at com.ExitTest.Tests.RemoveItemFromCartTest.ItemNotExist(RemoveItemFromCartTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemNotExist -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:49:15 IST" name="resultTest" finished-at="2022-07-14T20:49:15 IST" duration-ms="61" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ItemNotExist status=FAILURE method=RemoveItemFromCartTest.ItemNotExist()[pri:2, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:49:15 IST" name="endTest" finished-at="2022-07-14T20:49:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.RemoveItemFromCartTest@6d91790b]" started-at="2022-07-14T20:49:15 IST" name="testclose" finished-at="2022-07-14T20:49:15 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.ExitTest.Tests.RemoveItemFromCartTest -->
+      <class name="com.ExitTest.Tests.FlipKartFunctionButtonsTest">
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:49:54 IST" name="intializerDriver" finished-at="2022-07-14T20:49:55 IST" duration-ms="1126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:49:55 IST" name="openUrl" finished-at="2022-07-14T20:49:59 IST" duration-ms="4098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:49:59 IST" name="startTest" finished-at="2022-07-14T20:49:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.FlipKartFunctionButtonsTest.AboutUs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:49:59 IST" name="windowMaximize" finished-at="2022-07-14T20:49:59 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="AboutUs()[pri:1, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:49:59 IST" name="AboutUs" finished-at="2022-07-14T20:50:06 IST" duration-ms="6383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUs -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:06 IST" name="endTest" finished-at="2022-07-14T20:50:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:06 IST" name="testclose" finished-at="2022-07-14T20:50:06 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:06 IST" name="resultTest" finished-at="2022-07-14T20:50:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AboutUs status=SUCCESS method=FlipKartFunctionButtonsTest.AboutUs()[pri:1, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:06 IST" name="intializerDriver" finished-at="2022-07-14T20:50:07 IST" duration-ms="1111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:07 IST" name="openUrl" finished-at="2022-07-14T20:50:11 IST" duration-ms="4251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:11 IST" name="startTest" finished-at="2022-07-14T20:50:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.FlipKartFunctionButtonsTest.ContactUs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:11 IST" name="windowMaximize" finished-at="2022-07-14T20:50:11 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="ContactUs()[pri:2, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:11 IST" name="ContactUs" finished-at="2022-07-14T20:50:21 IST" duration-ms="10167" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://www.flipkart.com/] but found [https://www.flipkart.com/helpcentre?otracker=undefined_footer_navlinks]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://www.flipkart.com/] but found [https://www.flipkart.com/helpcentre?otracker=undefined_footer_navlinks]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.ExitTest.Tests.FlipKartFunctionButtonsTest.ContactUs(FlipKartFunctionButtonsTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:21 IST" name="endTest" finished-at="2022-07-14T20:50:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:21 IST" name="resultTest" finished-at="2022-07-14T20:50:21 IST" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUs status=FAILURE method=FlipKartFunctionButtonsTest.ContactUs()[pri:2, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:21 IST" name="testclose" finished-at="2022-07-14T20:50:21 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:21 IST" name="intializerDriver" finished-at="2022-07-14T20:50:23 IST" duration-ms="1097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:23 IST" name="openUrl" finished-at="2022-07-14T20:50:43 IST" duration-ms="20430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:43 IST" name="windowMaximize" finished-at="2022-07-14T20:50:43 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:43 IST" name="startTest" finished-at="2022-07-14T20:50:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.FlipKartFunctionButtonsTest.CancellationAndRefund() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="CancellationAndRefund()[pri:3, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:43 IST" name="CancellationAndRefund" finished-at="2022-07-14T20:50:54 IST" duration-ms="11065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancellationAndRefund -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:54 IST" name="resultTest" finished-at="2022-07-14T20:50:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CancellationAndRefund status=SUCCESS method=FlipKartFunctionButtonsTest.CancellationAndRefund()[pri:3, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:54 IST" name="endTest" finished-at="2022-07-14T20:50:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:54 IST" name="testclose" finished-at="2022-07-14T20:50:54 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:54 IST" name="intializerDriver" finished-at="2022-07-14T20:50:55 IST" duration-ms="1010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:50:55 IST" name="openUrl" finished-at="2022-07-14T20:51:06 IST" duration-ms="10488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:06 IST" name="startTest" finished-at="2022-07-14T20:51:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.FlipKartFunctionButtonsTest.SocialMedia() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:06 IST" name="windowMaximize" finished-at="2022-07-14T20:51:06 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="SocialMedia()[pri:4, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:06 IST" name="SocialMedia" finished-at="2022-07-14T20:51:11 IST" duration-ms="5281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SocialMedia -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:11 IST" name="testclose" finished-at="2022-07-14T20:51:11 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:11 IST" name="endTest" finished-at="2022-07-14T20:51:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:11 IST" name="resultTest" finished-at="2022-07-14T20:51:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SocialMedia status=SUCCESS method=FlipKartFunctionButtonsTest.SocialMedia()[pri:4, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:11 IST" name="intializerDriver" finished-at="2022-07-14T20:51:12 IST" duration-ms="1019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:12 IST" name="openUrl" finished-at="2022-07-14T20:51:16 IST" duration-ms="3905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:16 IST" name="windowMaximize" finished-at="2022-07-14T20:51:16 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:16 IST" name="startTest" finished-at="2022-07-14T20:51:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.FlipKartFunctionButtonsTest.policy() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="policy()[pri:5, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:16 IST" name="policy" finished-at="2022-07-14T20:51:22 IST" duration-ms="6033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- policy -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:22 IST" name="testclose" finished-at="2022-07-14T20:51:22 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:22 IST" name="endTest" finished-at="2022-07-14T20:51:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72]" started-at="2022-07-14T20:51:22 IST" name="resultTest" finished-at="2022-07-14T20:51:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=policy status=SUCCESS method=FlipKartFunctionButtonsTest.policy()[pri:5, instance:com.ExitTest.Tests.FlipKartFunctionButtonsTest@a567e72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+      </class> <!-- com.ExitTest.Tests.FlipKartFunctionButtonsTest -->
+      <class name="com.ExitTest.Tests.BeautyandToysTest">
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.BeautyandToysTest@27f1bbe0]" started-at="2022-07-14T20:52:45 IST" name="intializerDriver" finished-at="2022-07-14T20:52:46 IST" duration-ms="1020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.BeautyandToysTest@27f1bbe0]" started-at="2022-07-14T20:52:46 IST" name="openUrl" finished-at="2022-07-14T20:53:02 IST" duration-ms="15599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.BeautyandToysTest@27f1bbe0]" started-at="2022-07-14T20:53:02 IST" name="startTest" finished-at="2022-07-14T20:53:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.BeautyandToysTest.BeautyandToys()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.BeautyandToysTest@27f1bbe0]" started-at="2022-07-14T20:53:02 IST" name="windowMaximize" finished-at="2022-07-14T20:53:02 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="BeautyandToys()[pri:0, instance:com.ExitTest.Tests.BeautyandToysTest@27f1bbe0]" started-at="2022-07-14T20:53:02 IST" name="BeautyandToys" finished-at="2022-07-14T20:53:07 IST" duration-ms="4670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeautyandToys -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.BeautyandToysTest@27f1bbe0]" started-at="2022-07-14T20:53:07 IST" name="endTest" finished-at="2022-07-14T20:53:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.BeautyandToysTest@27f1bbe0]" started-at="2022-07-14T20:53:07 IST" name="resultTest" finished-at="2022-07-14T20:53:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BeautyandToys status=SUCCESS method=BeautyandToysTest.BeautyandToys()[pri:0, instance:com.ExitTest.Tests.BeautyandToysTest@27f1bbe0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.BeautyandToysTest@27f1bbe0]" started-at="2022-07-14T20:53:07 IST" name="testclose" finished-at="2022-07-14T20:53:07 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.ExitTest.Tests.BeautyandToysTest -->
+      <class name="com.ExitTest.Tests.HomeFurnitureTest">
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.HomeFurnitureTest@6ce90bc5]" started-at="2022-07-14T20:49:15 IST" name="intializerDriver" finished-at="2022-07-14T20:49:16 IST" duration-ms="1115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.HomeFurnitureTest@6ce90bc5]" started-at="2022-07-14T20:49:16 IST" name="openUrl" finished-at="2022-07-14T20:49:51 IST" duration-ms="34179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.HomeFurnitureTest@6ce90bc5]" started-at="2022-07-14T20:49:51 IST" name="windowMaximize" finished-at="2022-07-14T20:49:51 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.HomeFurnitureTest@6ce90bc5]" started-at="2022-07-14T20:49:51 IST" name="startTest" finished-at="2022-07-14T20:49:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.HomeFurnitureTest.HomeFurniture()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="HomeFurniture()[pri:0, instance:com.ExitTest.Tests.HomeFurnitureTest@6ce90bc5]" started-at="2022-07-14T20:49:51 IST" name="HomeFurniture" finished-at="2022-07-14T20:49:54 IST" duration-ms="2861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeFurniture -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.HomeFurnitureTest@6ce90bc5]" started-at="2022-07-14T20:49:54 IST" name="resultTest" finished-at="2022-07-14T20:49:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomeFurniture status=SUCCESS method=HomeFurnitureTest.HomeFurniture()[pri:0, instance:com.ExitTest.Tests.HomeFurnitureTest@6ce90bc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.HomeFurnitureTest@6ce90bc5]" started-at="2022-07-14T20:49:54 IST" name="endTest" finished-at="2022-07-14T20:49:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.HomeFurnitureTest@6ce90bc5]" started-at="2022-07-14T20:49:54 IST" name="testclose" finished-at="2022-07-14T20:49:54 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.ExitTest.Tests.HomeFurnitureTest -->
+      <class name="com.ExitTest.Tests.AddToCartTest">
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.AddToCartTest@4b1c0397]" started-at="2022-07-14T20:51:30 IST" name="intializerDriver" finished-at="2022-07-14T20:51:31 IST" duration-ms="1011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.AddToCartTest@4b1c0397]" started-at="2022-07-14T20:51:31 IST" name="openUrl" finished-at="2022-07-14T20:51:35 IST" duration-ms="3879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.AddToCartTest@4b1c0397]" started-at="2022-07-14T20:51:35 IST" name="windowMaximize" finished-at="2022-07-14T20:51:35 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.AddToCartTest@4b1c0397]" started-at="2022-07-14T20:51:35 IST" name="startTest" finished-at="2022-07-14T20:51:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.AddToCartTest.addToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addToCart()[pri:0, instance:com.ExitTest.Tests.AddToCartTest@4b1c0397]" started-at="2022-07-14T20:51:35 IST" name="addToCart" finished-at="2022-07-14T20:51:57 IST" duration-ms="21474" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[3]/div[2]/div/div[1]/div[2]/a"}
+  (Session info: headless chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-3LSM2J3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PREETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca6c66f3f019614d774adbed7eb1c30d
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div[3]/div[2]/div/div[1]/div[2]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[3]/div[2]/div/div[1]/div[2]/a"}
+  (Session info: headless chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-3LSM2J3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PREETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca6c66f3f019614d774adbed7eb1c30d
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div[3]/div[2]/div/div[1]/div[2]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy31.click(Unknown Source)
+at com.ExitTest.Pages.AddToCartPage.clickOnViewAll(AddToCartPage.java:56)
+at com.ExitTest.Tests.AddToCartTest.addToCart(AddToCartTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.AddToCartTest@4b1c0397]" started-at="2022-07-14T20:51:57 IST" name="endTest" finished-at="2022-07-14T20:51:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.AddToCartTest@4b1c0397]" started-at="2022-07-14T20:51:57 IST" name="resultTest" finished-at="2022-07-14T20:51:57 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=FAILURE method=AddToCartTest.addToCart()[pri:0, instance:com.ExitTest.Tests.AddToCartTest@4b1c0397] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.AddToCartTest@4b1c0397]" started-at="2022-07-14T20:51:57 IST" name="testclose" finished-at="2022-07-14T20:51:57 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.ExitTest.Tests.AddToCartTest -->
+      <class name="com.ExitTest.Tests.TopOffersTest">
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.TopOffersTest@34b9fc7d]" started-at="2022-07-14T20:52:36 IST" name="intializerDriver" finished-at="2022-07-14T20:52:37 IST" duration-ms="1019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.TopOffersTest@34b9fc7d]" started-at="2022-07-14T20:52:37 IST" name="openUrl" finished-at="2022-07-14T20:52:43 IST" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.TopOffersTest@34b9fc7d]" started-at="2022-07-14T20:52:43 IST" name="startTest" finished-at="2022-07-14T20:52:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.TopOffersTest.TopOffers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.TopOffersTest@34b9fc7d]" started-at="2022-07-14T20:52:43 IST" name="windowMaximize" finished-at="2022-07-14T20:52:43 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="TopOffers()[pri:0, instance:com.ExitTest.Tests.TopOffersTest@34b9fc7d]" started-at="2022-07-14T20:52:43 IST" name="TopOffers" finished-at="2022-07-14T20:52:45 IST" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TopOffers -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.TopOffersTest@34b9fc7d]" started-at="2022-07-14T20:52:45 IST" name="endTest" finished-at="2022-07-14T20:52:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.TopOffersTest@34b9fc7d]" started-at="2022-07-14T20:52:45 IST" name="resultTest" finished-at="2022-07-14T20:52:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TopOffers status=SUCCESS method=TopOffersTest.TopOffers()[pri:0, instance:com.ExitTest.Tests.TopOffersTest@34b9fc7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.TopOffersTest@34b9fc7d]" started-at="2022-07-14T20:52:45 IST" name="testclose" finished-at="2022-07-14T20:52:45 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.ExitTest.Tests.TopOffersTest -->
+      <class name="com.ExitTest.Tests.LoginTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:39 IST" name="setExtent" finished-at="2022-07-14T20:47:39 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:39 IST" name="intializerDriver" finished-at="2022-07-14T20:47:41 IST" duration-ms="1539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:41 IST" name="openUrl" finished-at="2022-07-14T20:47:52 IST" duration-ms="11063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:52 IST" name="startTest" finished-at="2022-07-14T20:47:52 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.LoginTest.validLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:52 IST" name="windowMaximize" finished-at="2022-07-14T20:47:52 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="validLogin()[pri:1, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:52 IST" name="validLogin" finished-at="2022-07-14T20:47:52 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:52 IST" name="endTest" finished-at="2022-07-14T20:47:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:52 IST" name="resultTest" finished-at="2022-07-14T20:47:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:1, instance:com.ExitTest.Tests.LoginTest@1b9c1b51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:52 IST" name="testclose" finished-at="2022-07-14T20:47:52 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:52 IST" name="intializerDriver" finished-at="2022-07-14T20:47:53 IST" duration-ms="1043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:53 IST" name="openUrl" finished-at="2022-07-14T20:47:57 IST" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:57 IST" name="startTest" finished-at="2022-07-14T20:47:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.LoginTest.invalidEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:57 IST" name="windowMaximize" finished-at="2022-07-14T20:47:57 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="invalidEmail()[pri:2, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:57 IST" name="invalidEmail" finished-at="2022-07-14T20:47:57 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:57 IST" name="resultTest" finished-at="2022-07-14T20:47:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidEmail status=SUCCESS method=LoginTest.invalidEmail()[pri:2, instance:com.ExitTest.Tests.LoginTest@1b9c1b51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:57 IST" name="testclose" finished-at="2022-07-14T20:47:58 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:57 IST" name="endTest" finished-at="2022-07-14T20:47:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:58 IST" name="intializerDriver" finished-at="2022-07-14T20:47:59 IST" duration-ms="1091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:47:59 IST" name="openUrl" finished-at="2022-07-14T20:48:18 IST" duration-ms="19295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:18 IST" name="startTest" finished-at="2022-07-14T20:48:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.LoginTest.invalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:18 IST" name="windowMaximize" finished-at="2022-07-14T20:48:18 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="invalidPassword()[pri:3, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:18 IST" name="invalidPassword" finished-at="2022-07-14T20:48:18 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:18 IST" name="endTest" finished-at="2022-07-14T20:48:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:18 IST" name="resultTest" finished-at="2022-07-14T20:48:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPassword status=SUCCESS method=LoginTest.invalidPassword()[pri:3, instance:com.ExitTest.Tests.LoginTest@1b9c1b51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:18 IST" name="testclose" finished-at="2022-07-14T20:48:18 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:18 IST" name="intializerDriver" finished-at="2022-07-14T20:48:19 IST" duration-ms="1050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:19 IST" name="openUrl" finished-at="2022-07-14T20:48:29 IST" duration-ms="9809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:29 IST" name="startTest" finished-at="2022-07-14T20:48:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.LoginTest.blankEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:29 IST" name="windowMaximize" finished-at="2022-07-14T20:48:29 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="blankEmail()[pri:4, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:29 IST" name="blankEmail" finished-at="2022-07-14T20:48:30 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankEmail -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:30 IST" name="resultTest" finished-at="2022-07-14T20:48:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blankEmail status=SUCCESS method=LoginTest.blankEmail()[pri:4, instance:com.ExitTest.Tests.LoginTest@1b9c1b51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:30 IST" name="endTest" finished-at="2022-07-14T20:48:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:30 IST" name="testclose" finished-at="2022-07-14T20:48:30 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:30 IST" name="intializerDriver" finished-at="2022-07-14T20:48:31 IST" duration-ms="1098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:31 IST" name="openUrl" finished-at="2022-07-14T20:48:37 IST" duration-ms="5937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:37 IST" name="windowMaximize" finished-at="2022-07-14T20:48:37 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:37 IST" name="startTest" finished-at="2022-07-14T20:48:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.LoginTest.blankPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="blankPassword()[pri:5, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:37 IST" name="blankPassword" finished-at="2022-07-14T20:48:37 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPassword -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:37 IST" name="endTest" finished-at="2022-07-14T20:48:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:37 IST" name="resultTest" finished-at="2022-07-14T20:48:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blankPassword status=SUCCESS method=LoginTest.blankPassword()[pri:5, instance:com.ExitTest.Tests.LoginTest@1b9c1b51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:48:37 IST" name="testclose" finished-at="2022-07-14T20:48:37 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.ExitTest.Tests.LoginTest@1b9c1b51]" started-at="2022-07-14T20:53:57 IST" name="endReport" finished-at="2022-07-14T20:53:57 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.ExitTest.Tests.ViewWishListTest -->
+      </class> <!-- com.ExitTest.Tests.LoginTest -->
+      <class name="com.ExitTest.Tests.ApplyFilterTest">
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.ApplyFilterTest@1a5b8489]" started-at="2022-07-14T20:51:22 IST" name="intializerDriver" finished-at="2022-07-14T20:51:23 IST" duration-ms="1013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.ApplyFilterTest@1a5b8489]" started-at="2022-07-14T20:51:23 IST" name="openUrl" finished-at="2022-07-14T20:51:27 IST" duration-ms="3564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.ApplyFilterTest@1a5b8489]" started-at="2022-07-14T20:51:27 IST" name="startTest" finished-at="2022-07-14T20:51:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.ApplyFilterTest.ApplyFilter()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.ApplyFilterTest@1a5b8489]" started-at="2022-07-14T20:51:27 IST" name="windowMaximize" finished-at="2022-07-14T20:51:27 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method signature="ApplyFilter()[pri:0, instance:com.ExitTest.Tests.ApplyFilterTest@1a5b8489]" started-at="2022-07-14T20:51:27 IST" name="ApplyFilter" finished-at="2022-07-14T20:51:30 IST" duration-ms="2944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyFilter -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.ApplyFilterTest@1a5b8489]" started-at="2022-07-14T20:51:30 IST" name="endTest" finished-at="2022-07-14T20:51:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.ApplyFilterTest@1a5b8489]" started-at="2022-07-14T20:51:30 IST" name="resultTest" finished-at="2022-07-14T20:51:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ApplyFilter status=SUCCESS method=ApplyFilterTest.ApplyFilter()[pri:0, instance:com.ExitTest.Tests.ApplyFilterTest@1a5b8489] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.ApplyFilterTest@1a5b8489]" started-at="2022-07-14T20:51:30 IST" name="testclose" finished-at="2022-07-14T20:51:30 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.ExitTest.Tests.ApplyFilterTest -->
+      <class name="com.ExitTest.Tests.BecomeASellerTest">
+        <test-method is-config="true" signature="intializerDriver(java.lang.String)[pri:0, instance:com.ExitTest.Tests.BecomeASellerTest@4b1abd11]" started-at="2022-07-14T20:53:23 IST" name="intializerDriver" finished-at="2022-07-14T20:53:24 IST" duration-ms="1012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializerDriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ExitTest.Tests.BecomeASellerTest@4b1abd11]" started-at="2022-07-14T20:53:24 IST" name="openUrl" finished-at="2022-07-14T20:53:31 IST" duration-ms="6127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="windowMaximize()[pri:0, instance:com.ExitTest.Tests.BecomeASellerTest@4b1abd11]" started-at="2022-07-14T20:53:31 IST" name="windowMaximize" finished-at="2022-07-14T20:53:31 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowMaximize -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.ExitTest.Tests.BecomeASellerTest@4b1abd11]" started-at="2022-07-14T20:53:31 IST" name="startTest" finished-at="2022-07-14T20:53:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ExitTest.Tests.BecomeASellerTest.BecomeASeller()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="BecomeASeller()[pri:0, instance:com.ExitTest.Tests.BecomeASellerTest@4b1abd11]" started-at="2022-07-14T20:53:31 IST" name="BecomeASeller" finished-at="2022-07-14T20:53:56 IST" duration-ms="25831" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: headless chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-3LSM2J3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PREETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 24829ba210da95a6f432ca9a1e4164f5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: headless chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-3LSM2J3', ip: '192.168.43.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PREETI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 24829ba210da95a6f432ca9a1e4164f5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy31.click(Unknown Source)
+at com.ExitTest.Pages.BecomeASellerPage.clickOnHowToRegister(BecomeASellerPage.java:38)
+at com.ExitTest.Tests.BecomeASellerTest.BecomeASeller(BecomeASellerTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BecomeASeller -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.ExitTest.Tests.BecomeASellerTest@4b1abd11]" started-at="2022-07-14T20:53:56 IST" name="endTest" finished-at="2022-07-14T20:53:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="resultTest(org.testng.ITestResult)[pri:0, instance:com.ExitTest.Tests.BecomeASellerTest@4b1abd11]" started-at="2022-07-14T20:53:56 IST" name="resultTest" finished-at="2022-07-14T20:53:57 IST" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BecomeASeller status=FAILURE method=BecomeASellerTest.BecomeASeller()[pri:0, instance:com.ExitTest.Tests.BecomeASellerTest@4b1abd11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultTest -->
+        <test-method is-config="true" signature="testclose()[pri:0, instance:com.ExitTest.Tests.BecomeASellerTest@4b1abd11]" started-at="2022-07-14T20:53:57 IST" name="testclose" finished-at="2022-07-14T20:53:57 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testclose -->
+      </class> <!-- com.ExitTest.Tests.BecomeASellerTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

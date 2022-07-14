@@ -27,19 +27,13 @@ public class HomeFurniturePage {
 	public WebElement Beds;
 	
 	@FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[4]")
-	public WebElement NewestFirst;
-	
-//	@FindBy(how = How.XPATH, using = "//a[contains(@class,'_2rpwqI')]//img[contains(@alt,'- 60 cm')]")
-//	public WebElement openproduct;
-//	
+	public WebElement NewestFirst;	
 
 	public void clickOnHomeFurniture() {
 		action.moveToElement(HomeFurniture).perform();
 		action.moveToElement(BedroomsFurniture).perform();
-		//action.moveToElement(BedroomsFurniture).perform();
-		
-		
 	}
+	
 	public void clickOnBeds() {
 		Beds.click();
 	}

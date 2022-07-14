@@ -4,7 +4,17 @@
   <test thread-count="5" name="Test">
 <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ExitTest.Tests.ViewWishListTest"/>
+      <class name="com.ExitTest.Tests.LoginTest"/>
+      <class name="com.ExitTest.Tests.RemoveItemFromCartTest"/>
+      <class name="com.ExitTest.Tests.HomeFurnitureTest"/>
+      <class name="com.ExitTest.Tests.FlipKartFunctionButtonsTest"/>
+      <class name="com.ExitTest.Tests.ApplyFilterTest"/>
+      <class name="com.ExitTest.Tests.AddToCartTest"/>
+      <class name="com.ExitTest.Tests.ElectronicsItemTest"/>
+      <class name="com.ExitTest.Tests.TopOffersTest"/>
+      <class name="com.ExitTest.Tests.BeautyandToysTest"/>
+      <class name="com.ExitTest.Tests.SearchTest"/>
+      <class name="com.ExitTest.Tests.BecomeASellerTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

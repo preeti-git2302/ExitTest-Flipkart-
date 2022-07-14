@@ -13,17 +13,17 @@ public class Excel {
 
 	    try {
 	    File file = new File("./Excel/Book1.xlsx");
+	    
 	    //Create an object of FileInputStream class to read excel file
+	    
 	    FileInputStream inputStream = new FileInputStream(file);
 
 	    XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
+	    
 	    XSSFSheet sheet=workbook.getSheet("Sheet1");
 
-	    // DataFormatter formatter=new DataFormatter();
-	    // String value=formatter.formatCellValue(sheet.getRow(row_num).getCell(cell_num));
-
 	    String value= sheet.getRow(row).getCell(col).getStringCellValue();
-	    //
+	    
 	    return value;
 	    }
 	    catch(Exception e) {

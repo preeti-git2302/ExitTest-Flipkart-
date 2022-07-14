@@ -34,6 +34,7 @@ public class SearchPage {
 	public void clickSubmit() {
 		SubmitButton.click();
 	}
+	
 	public void clickproduct() {
 		productButton.click();
 	}

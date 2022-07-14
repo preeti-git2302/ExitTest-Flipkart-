@@ -17,12 +17,11 @@ public class BeautyandToysTest extends BaseTest{
 		toys.clickOnBeautyandToysOptions();
 		toys.clickOnSoftToys();
 		toys.clickOnNewestFirst();
-		toys.clickOnProduct();
 		logger.info("Become A seller");
 		
-//		SoftAssert sa = new SoftAssert();
-//		sa.assertEquals(driver.getCurrentUrl(), "https://seller.flipkart.com/sell-online/resources/seller-success-stories" );
-//		sa.assertAll();
+		SoftAssert sa = new SoftAssert();
+		sa.assertEquals(driver.getTitle(), "Soft Toys (सॉफ्ट टॉयज): Buy Soft Toys for Babies Online | Flipkart.com" );
+		sa.assertAll();
 	}
 
 

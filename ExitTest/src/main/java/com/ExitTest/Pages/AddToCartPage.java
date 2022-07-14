@@ -36,67 +36,48 @@ public class AddToCartPage {
 	@FindBy(how = How.XPATH, using = "//*[@id=\"container\"]/div/div[3]/div[1]/div[2]/div[6]/div/div[1]/div[1]/div[2]/div/div[2]/div/span")
 	public WebElement changePin;
 	
-
-	
 	@FindBy(how = How.XPATH, using = "//*[@id=\"container\"]/div/div[3]/div[1]/div[2]/div[8]/div[4]/div/div[2]/div[2]/div[2]/button")
 	public WebElement addToCart;
 	
 	@FindBy(how = How.XPATH, using = "//*[@id=\"container\"]/div/div[2]/div/div/div[1]/div[1]/div[5]/div/div[5]/div/div[1]")
 	public WebElement SaveForLater;
 	
-//	@FindBy(how = How.NAME, using = "password")
-//	public WebElement password;
-//	
-//	@FindBy(how = How.ID, using = "signInSubmit")
-//	public WebElement signInSubmitButton;
-	
-	
 	public void clickOnApplicationButton() {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()", Application);
-		//Application.click();
 	}
-	public void clickOnAirConditioner() {
+	public void clickOnAirConditioner() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", AirConditioner);
-		//AirConditioner.click();	
+		Thread.sleep(5000);
 	}
 	
 	public void clickOnViewAll() {
 		ViewAll.click();	
 	}
-	public void clickOnProduct() {
+	public void clickOnProduct() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()", SelectProduct);
-		//SelectProduct.click();
+		Thread.sleep(5000);
 	}
 	public void clickOnSelectTon() {
 		selectTon.click();
 	}
-	public void clickOnChangePin() {
+	public void clickOnChangePin() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()", changePin);
-		//changePin.click();
+		Thread.sleep(5000);
 	}
 	
 	public void clickOnAddToCart() {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()", addToCart);
-		//addToCart.click();
 	}
 	
 	public void clickOnSaveforlater() {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()", SaveForLater);
-		//selectPin.click();
+		
 	}
-//	public void enterpassword(String pass) {
-//		password.sendKeys(pass);
-//	}
-//	public void clicksubmit() {
-//		signInSubmitButton.click();
-//	}
 	
-
-
 }

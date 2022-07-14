@@ -31,10 +31,12 @@ public class RemoveItemFromCartPage {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()", Cart);
 	}
+	
 	public void clickOnRemove() {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()", Remove);
 	}
+	
 	public void clickOnSelectRemove() {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()", SelectRemove);
